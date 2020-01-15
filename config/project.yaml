@@ -1,0 +1,54 @@
+dateModified: 1579092410
+email:
+  fromEmail: algemeen@wirelab.nl
+  fromName: 'CSS Grid'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  aaae4fee-ec0e-4155-b3dd-035161ce950d:
+    name: Common
+sections:
+  b092a692-55e2-42e9-b17f-888a879a22a0:
+    name: Home
+    handle: home
+    type: single
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      e2307fbd-d666-40c6-9068-5b14697e5a33:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: __home__
+        template: pages/_home
+    entryTypes:
+      8eb653a7-f478-4fb7-8324-f561bcf2a8a9:
+        name: Home
+        handle: home
+        hasTitleField: false
+        titleLabel: null
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+siteGroups:
+  7a858c8a-2f62-4dfd-ba5d-574b09b82bb9:
+    name: 'CSS Grid'
+sites:
+  e2307fbd-d666-40c6-9068-5b14697e5a33:
+    baseUrl: '@web'
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'CSS Grid'
+    primary: true
+    siteGroup: 7a858c8a-2f62-4dfd-ba5d-574b09b82bb9
+    sortOrder: 1
+system:
+  edition: solo
+  name: 'CSS Grid'
+  live: true
+  schemaVersion: 3.3.3
+  timeZone: America/Los_Angeles
+users:
+  requireEmailVerification: true
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoVolumeUid: null
+  photoSubpath: ''

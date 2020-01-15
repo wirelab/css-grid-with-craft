@@ -1,0 +1,32 @@
+.grid-template-columns {
+  display: grid;
+
+  &.pixels {
+    grid-template-columns: 100px 100px 200px 200px;
+  }
+
+  &.fr {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &.repeat {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &.repeat-auto-fill {
+    grid-template-columns: repeat(auto-fill, 200px);
+  }
+
+  &.named-lines {
+    grid-template-columns: [main-start sidebar-start] 1fr [sidebar-end content-start] 2fr [content-end main-end];
+  }
+
+  .grid-item {
+    margin-right: 10px;
+  }
+}
+
+.grid-auto-rows {
+  display: grid;
+  grid-auto-rows: minmax(200px, auto);
+}

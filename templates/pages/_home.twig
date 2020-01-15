@@ -1,0 +1,21 @@
+{% extends 'layouts/_master' %}
+
+{% block content %}
+
+   <section class="home">
+      <div class="container">
+         {% include "grids/_baseComponent.twig" %}
+
+         {% include "grids/_baseComponentString.twig" %}
+         {% include "grids/_basicGridString.twig" %}
+
+         {% include "grids/_basicGrid.twig" %}
+         {% include "grids/_basicGridInline.twig" %}
+
+         {% include "grids/_gridTemplateColumns.twig" %}
+         {% include "grids/_gridAutoRows.twig" %}
+
+      </div>
+   </section>
+
+{% endblock %}
